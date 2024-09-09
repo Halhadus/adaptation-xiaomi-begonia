@@ -4,5 +4,5 @@ mnt/vendor /mnt
 usr/bin /usr
 usr/lib/droidian /usr/lib
 usr/lib/systemd /usr/lib
-usr/share /usr
-var/lib/* /var
+usr/share/* /usr/share
+var/lib/* /var/lib
