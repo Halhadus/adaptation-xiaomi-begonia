@@ -12,7 +12,7 @@ droidian-camera or pinhole not working.
 
 * Rotation: ✔
 
-* Fingerprint: ? (temporary disabled)
+* Fingerprint: ✔
 
 * Auto brightness: ❌
 
@@ -30,7 +30,7 @@ droidian-camera or pinhole not working.
 
 * Carrier info: ✔
 
-* Dual SIM: ✔(partialy)
+* Dual SIM: ✔
 
 * MMS: ✔
 
