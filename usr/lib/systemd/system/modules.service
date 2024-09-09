@@ -1,0 +1,12 @@
+[Unit]
+Description=Enable all modules on boot
+Requires=lxc@android.service
+Before=droidian-boot-wlan.service
+After=lxc@android.service
+
+[Service]
+Type=oneshot
+ExecStart=/usr/bin/modules.sh
+
+[Install]
+WantedBy=multi-user.target

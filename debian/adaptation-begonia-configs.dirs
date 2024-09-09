@@ -1,0 +1,15 @@
+/etc/dbus-1
+/etc/environment.d
+/etc/modules-load.d
+/etc/ofono/ril_subscription.d
+/etc/pulse
+/etc/systemd
+/etc/udev/rules.d
+/lib/systemd/system/bluebinder.service.d
+/lib/systemd/system/systemd-modules-load.service.d/
+/usr/bin
+/usr/share/glib-2.0/schemas
+/usr/lib/systemd/system
+/usr/lib/systemd/user
+/mnt/vendor
+/var/lib

@@ -1,0 +1,8 @@
+etc/* /etc
+lib/systemd/system/* lib/system/system
+mnt/vendor /mnt
+usr/bin /usr
+usr/lib/droidian /usr/lib
+usr/lib/systemd /usr/lib
+usr/share /usr
+var/lib/* /var

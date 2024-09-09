@@ -1,0 +1,30 @@
+Source: adaptation-xiaomi-begonia
+Maintainer: Halhadus
+Section: metapackages
+Priority: optional
+Build-Depends: debhelper (>= 10)
+Standards-Version: 4.5.0.3
+Vcs-Browser: https://github.com/begonia-linux/adaptation-xiaomi-begonia
+Vcs-Git: https://github.com/begonia-linux/adaptation-xiaomi-begonia.git
+
+Package: adaptation-xiaomi-begonia
+Architecture: all
+Depends: ${misc:Depends},
+         linux-bootimage-xiaomi-begonia,
+         adaptation-hybris-api29-phone-dual-sim,
+         adaptation-begonia-configs,
+         droidian-camera,
+         mobile-power-saver,
+         python3-evdev
+Description: adapatation-xiaomi-begonia- meta
+ begonia api29 adaptation metapackage
+
+Package: adaptation-begonia-configs
+Architecture: all
+Depends: ${misc:Depends},
+Description: begonia's specific adaptation configs
+
+Package: adaptation-begonia-android
+Architecture: all
+Depends: ${misc:Depends},
+Description: begonia's specific adaptation for Android. This will disable many Android binaries, remove me if something breaks.
