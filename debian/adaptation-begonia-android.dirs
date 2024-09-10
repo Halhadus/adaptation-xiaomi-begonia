@@ -1,3 +1,5 @@
+/usr/lib/droid-system-overlay
 /usr/lib/droid-system-overlay/mnt
 /usr/lib/droid-system-overlay/metadata
 /usr/lib/droid-vendor-overlay/etc
+/usr/lib/droid-vendor-overlay/etc/init
