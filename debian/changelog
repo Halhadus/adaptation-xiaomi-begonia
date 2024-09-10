@@ -1,0 +1,25 @@
+adaptation-xiaomi-begonia (0.0.0+111+aaaaaaaa) UNRELEASED; urgency=medium
+
+  [ MAINTAINER ]
+  * Initial release. (Closes: #XXXXXX)
+
+  [ Halhadus ]
+  * Update adaptation-begonia-android.dirs
+  * Update adaptation-begonia-configs.install
+  * Update debhelper-build-stamp
+  * Update adaptation-begonia-configs.dirs
+  * Update adaptation-begonia-configs.dirs
+  * Update adaptation-begonia-configs.install
+  * Update adaptation-begonia-android.dirs
+  * Delete debian/debhelper-build-stamp
+  * Delete debian/postinst
+  * Rename environment to 10-begonia.conf
+  * Create work.yml
+  * Update control
+  * Rename adaptation-begonia-android.dirs to adaptation-xiaomi-begonia-android.dirs
+  * Rename adaptation-begonia-android.install to adaptation-xiaomi-begonia-android.install
+  * Rename adaptation-begonia-configs.dirs to adaptation-xiaomi-begonia-configs.dirs
+  * Rename adaptation-begonia-configs.install to adaptation-xiaomi-begonia-configs.install
+  * Rename adaptation-begonia-configs.links to adaptation-xiaomi-begonia-configs.links
+
+ -- Halhadus <eneshakans45@proton.me>  Tue, 10 Sep 2024 10:32:57 +0000
