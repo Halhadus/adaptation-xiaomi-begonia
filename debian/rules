@@ -4,7 +4,7 @@
 	dh $@
 
 override_dh_installsystemd:
-	dh_installsystemd -padaptation-begonia-configs --name=brightness brightness.service --no-start
-	dh_installsystemd -padaptation-begonia-configs --name=droidian-perf droidian-perf.service --no-start
-	dh_installsystemd -padaptation-begonia-configs --name=modules modules.service --no-start
-	dh_installsystemd -padaptation-begonia-configs --name=pbhelper pbhelper.service --no-start
+	dh_installsystemd -padaptation-xiaomi-begonia-configs --name=brightness brightness.service --no-start
+	dh_installsystemd -padaptation-xiaomi-begonia-configs --name=droidian-perf droidian-perf.service --no-start
+	dh_installsystemd -padaptation-xiaomi-begonia-configs --name=modules modules.service --no-start
+	dh_installsystemd -padaptation-xiaomi-begonia-configs --name=pbhelper pbhelper.service --no-start
