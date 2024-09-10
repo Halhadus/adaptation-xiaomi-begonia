@@ -1,0 +1,10 @@
+[Unit]
+Description=First run
+Before=lxc@android.service
+
+[Service]
+Type=oneshot
+ExecStart=/usr/lib/adaptation-xiaomi-begonia/firstrun.sh
+
+[Install]
+WantedBy=multi-user.target

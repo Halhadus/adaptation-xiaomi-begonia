@@ -1,3 +1,0 @@
-#!/bin/sh
-cp -rf /usr/lib/adaptation-xiaomi-begonia/pre-start.sh /var/lib/lxc/android/pre-start.sh
-touch /usr/lib/adaptation-xiaomi-begonia/.installed
