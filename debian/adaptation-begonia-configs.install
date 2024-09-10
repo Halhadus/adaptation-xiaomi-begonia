@@ -1,8 +1,8 @@
 etc/* /etc
 lib/systemd/system/* lib/system/system
 mnt/vendor /mnt
-usr/bin /usr
-usr/lib/droidian /usr/lib
-usr/lib/systemd /usr/lib
+usr/bin/* /usr/bin
+usr/lib/droidian/device /usr/lib/droidian
+usr/lib/systemd/system/* /usr/lib/systemd/system
 usr/share/* /usr/share
 var/lib/* /var/lib
