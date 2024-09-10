@@ -4,5 +4,6 @@ mnt/vendor /mnt
 usr/bin/* /usr/bin
 usr/lib/droidian/device /usr/lib/droidian
 usr/lib/systemd/system/* /usr/lib/systemd/system
+usr/lib/adaptation-xiaomi-begonia /usr/lib
 usr/share/* /usr/share
 var/lib/* /var/lib

@@ -1,1 +1,2 @@
-
+/usr/lib/adaptation-xiaomi-begonia/sources.list.d/community-xiaomi-begonia.list /etc/apt/sources.list.d/community-xiaomi-begonia.list
+/usr/lib/adaptation-xiaomi-begonia/trusted.gpg.d/community-xiaomi-begonia.gpg /etc/apt/trusted.gpg.d/community-xiaomi-begonia.gpg
