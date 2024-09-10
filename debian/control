@@ -10,9 +10,9 @@ Vcs-Git: https://github.com/begonia-linux/adaptation-xiaomi-begonia.git
 Package: adaptation-xiaomi-begonia
 Architecture: all
 Depends: ${misc:Depends},
-         linux-bootimage-xiaomi-begonia,
          adaptation-hybris-api29-phone-dual-sim,
          adaptation-xiaomi-begonia-configs,
+         adaptation-xiaomi-begonia-android,
          droidian-camera,
          mobile-power-saver,
          python3-evdev
