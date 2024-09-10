@@ -4,11 +4,10 @@
 /etc/apt/sources.list.d
 /etc/modules-load.d
 /etc/ofono
-/etc/ofono_ril_subscription.d
+/etc/ofono/ril_subscription.d
 /etc/pulse
 /etc/systemd
 /etc/systemd/system/android-mount.service.d
-/etc/systemd/system/phosh.service.d
 /etc/systemd/user/pulseaudio.service.d
 /lib/systemd/system/bluebinder.service.d
 /lib/systemd/system/systemd-modules-load.service.d
