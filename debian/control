@@ -12,19 +12,19 @@ Architecture: all
 Depends: ${misc:Depends},
          linux-bootimage-xiaomi-begonia,
          adaptation-hybris-api29-phone-dual-sim,
-         adaptation-begonia-configs,
+         adaptation-xiaomi-begonia-configs,
          droidian-camera,
          mobile-power-saver,
          python3-evdev
 Description: adapatation-xiaomi-begonia- meta
  begonia api29 adaptation metapackage
 
-Package: adaptation-begonia-configs
+Package: adaptation-xiaomi-begonia-configs
 Architecture: all
 Depends: ${misc:Depends},
 Description: begonia's specific adaptation configs
 
-Package: adaptation-begonia-android
+Package: adaptation-xiaomi-begonia-android
 Architecture: all
 Depends: ${misc:Depends},
 Description: begonia's specific adaptation for Android. This will disable many Android binaries, remove me if something breaks.
