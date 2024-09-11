@@ -189,7 +189,7 @@ ACTION=="add", SUBSYSTEM=="net", KERNEL=="wlan1", ENV{NM_UNMANAGED}="1"
 
 # Enable KVM for all users in phablet
 # Ultimately access is mediated by AppArmor
-KERNEL=="kvm", GROUP="android_phablet", MODE="0660"
+KERNEL=="kvm", GROUP="system", MODE="0660"
 
 # Set torch-light permissions so indicator-power can access it
 ACTION=="add|change", SUBSYSTEM=="leds", KERNEL=="torch-light", RUN+="/bin/chgrp android_input /sys/class/leds/%k/brightness"
