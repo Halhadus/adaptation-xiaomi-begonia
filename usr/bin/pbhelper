@@ -6,14 +6,20 @@ import evdev
 dev = evdev.InputDevice('/dev/input/event1')
 
 brightness_old = 2047
+brightness_old_old = 2047
 still_pressed_old = False
 while True:
     time.sleep(0.1)
     with open("/sys/class/leds/lcd-backlight/brightness", "r") as f:
         brightness = f.read().strip()
     if str(brightness) == "0":
-        locked = True
-        brightness = brightness_old
+        if brightness_old_old == brightness_old:
+            if not still_pressed:
+                brightness = 1023
+                locked = True
+        else:
+            locked = True
+            brightness = brightness_old
     else:
         locked = False
     for active_keys in dev.active_keys():
@@ -35,6 +41,7 @@ while True:
                     if locked:
                         print("Unlocking the screen")
                         os.system(f"echo {brightness} | tee /sys/class/leds/lcd-backlight/brightness")
+                        brightness_old_old = 0
                         locked = False
                     else:
                         brightness_old = brightness
