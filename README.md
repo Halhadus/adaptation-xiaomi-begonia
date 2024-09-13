@@ -4,7 +4,7 @@
 
 ### Camera: 
 
-droidian-camera or pinhole not working.
+With droidian-camera & gst backend it's working
 
 ### Sensors:
 
